@@ -43,3 +43,6 @@ PURGE MASTER LOGS手动删除用法示例
 > purge master logs to 'mysql-bin.010’; //清除mysql-bin.010日志  
 > purge master logs before '2017-08-28 13:00:00'; //清除2016-02-28 13:00:00前的日志  
 > purge master logs before date_sub(now(), interval 3 day); //清除3天前的bin日志  
+
+
+REF: https://www.jianshu.com/p/b0b31282541f  
